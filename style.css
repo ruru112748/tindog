@@ -1,0 +1,206 @@
+
+body {
+  font-family: 'Montserrat-rugular', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Montserrat';
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 120%;
+}
+
+/* Heading */
+
+.big-heading {
+  font-family: 'Montserrat' ;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #FF6969;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title Section */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 5% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: 'Montserrat';
+}
+
+/* Download Button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  left: 50%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 22%;
+  transform: rotate(25deg);
+  margin-left: 43px;
+  position: absolute;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-title-3 {
+  width: 112.9%
+}
+
+.feature-box {
+  padding: 5%;
+  line-height: 1.5;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+  font-size: 70px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+ /* Testimonial Section */
+
+#testimonials {
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 100px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+ #cta {
+   height: 31rem;
+ }
+
+ .cta-download-button {
+   margin: 5% 3% 5% 0;
+   left: 50%;
+ }
+
+/* Footer Section */
+
+ #footer {
+   height: 10%;
+   margin: 5% auto 2%;
+   line-height: 1;
+ }
+
+ .social-icon {
+   margin: 0 1% 1.5%;
+ }
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+    margin: auto;
+   }
+
+   .nav-title {
+     text-align: left;
+   }
+
+   #cta {
+     height: 78%;
+     padding: 1%;
+     font-size: 100%;
+   }
+
+  }
