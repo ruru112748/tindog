@@ -26,6 +26,12 @@ p {
   line-height: 4rem;
 }
 
+.cta-heading {
+  font-family: 'Montserrat' ;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
 /* Containers */
 
 .container-fluid{
@@ -156,7 +162,7 @@ p {
 /* CTA Section */
 
  #cta {
-   height: 28rem;
+   height: 31rem;
  }
 
  .cta-download-button {
@@ -180,7 +186,6 @@ p {
 
   #title {
     text-align: center;
-    font-size: 150%
   }
 
   .title-image {
@@ -195,9 +200,13 @@ p {
    }
 
    #cta {
-     height: 35%;
+     height: 70%;
      padding: 1%;
      font-size: 100%;
+   }
+
+   .cta-heading {
+     padding: auto;
    }
 
   }
