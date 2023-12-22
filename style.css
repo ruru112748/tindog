@@ -184,6 +184,10 @@ p {
 
 @media (max-width: 1028px) {
 
+  .big-heading {
+    font-size: 400%;
+  }
+
   #title {
     text-align: center;
   }
@@ -202,12 +206,11 @@ p {
    #cta {
      height: 40%;
      padding: 1%;
-     font-size: 100%;
+     font-size: 400%;
    }
 
    .cta-heading {
      padding: auto;
-     font-size: 400%;
    }
 
   }
